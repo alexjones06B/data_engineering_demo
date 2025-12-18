@@ -324,32 +324,7 @@ h1 { color: #FFD700; }
 </style>
 
 ---
-layout: center
+layout: none
 ---
 
-# 🚕 THANK YOU!
-
-## End of the Journey
-
-<div class="mt-8 p-8 bg-yellow-500 bg-opacity-10 rounded-lg border border-yellow-500 inline-block">
-  <div class="text-2xl mb-4">Questions?</div>
-  <div class="flex justify-center gap-4 text-4xl">
-    🗽 🚖 🌃 📊 🗽
-  </div>
-</div>
-
-<div class="mt-8 text-gray-500">Team 4 • Data Engineering Demo</div>
-
-<TaxiAnimation />
-
-<style>
-h1 {
-  background: linear-gradient(135deg, #FFD700 0%, #FFA500 100%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  font-size: 4rem !important;
-}
-h2 {
-  color: #FFD700;
-}
-</style>
+<TaxiCrash />
