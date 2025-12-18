@@ -1,0 +1,23 @@
+{
+  "name": "nyc-taxi-data-demo",
+  "version": "1.0.0",
+  "description": "NYC Taxi Data Analysis - Slidev Presentation",
+  "scripts": {
+    "dev": "slidev --open",
+    "build": "slidev build",
+    "export": "slidev export"
+  },
+  "keywords": [
+    "slidev",
+    "presentation",
+    "nyc",
+    "taxi",
+    "data-analysis"
+  ],
+  "author": "Team 4",
+  "license": "ISC",
+  "dependencies": {
+    "@slidev/cli": "^52.11.0",
+    "@slidev/theme-default": "^0.25.0"
+  }
+}

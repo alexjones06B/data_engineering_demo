@@ -1,0 +1,37 @@
+/* NYC Taxi Theme Styles */
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:wght@300;400;700&display=swap');
+
+:root {
+    --slidev-theme-primary: #FFD700;
+    --slidev-theme-background: #1a1a2e;
+}
+
+.slidev-layout {
+    background: linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%) !important;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+    font-family: 'Bebas Neue', sans-serif;
+    letter-spacing: 2px;
+}
+
+/* Selection color */
+::selection {
+    background: #FFD700;
+    color: #1a1a2e;
+}
+
+/* Scrollbar */
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: #1a1a2e;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #FFD700;
+    border-radius: 4px;
+}
