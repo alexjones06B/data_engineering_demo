@@ -178,27 +178,27 @@ h1 { color: #FFD700; }
 
 # 🥈 SILVER LAYER
 
-<div class="grid grid-cols-2 gap-8 mt-6">
-  <div class="space-y-4">
-    <div class="p-4 bg-yellow-500 bg-opacity-10 rounded-lg border border-yellow-500">
-      <div class="text-yellow-400 text-xl font-bold mb-2">🧹 Data Cleaning</div>
-      <div class="text-gray-300">We cleaned our data and ensured its quality.</div>
+<div class="grid grid-cols-2 gap-6 mt-2">
+  <div class="space-y-2">
+    <div class="p-3 bg-yellow-500 bg-opacity-10 rounded-lg border border-yellow-500">
+      <div class="text-yellow-400 text-lg font-bold mb-1">🧹 Data Cleaning</div>
+      <div class="text-gray-300 text-sm">We cleaned our data and ensured its quality.</div>
     </div>
-    <div class="p-4 bg-yellow-500 bg-opacity-10 rounded-lg border border-yellow-500">
-      <div class="text-yellow-400 text-xl font-bold mb-2">⭐ Star Schema</div>
-      <div class="text-gray-300">We used a star schema to organize our data.</div>
+    <div class="p-3 bg-yellow-500 bg-opacity-10 rounded-lg border border-yellow-500">
+      <div class="text-yellow-400 text-lg font-bold mb-1">⭐ Star Schema</div>
+      <div class="text-gray-300 text-sm">We used a star schema to organize our data.</div>
     </div>
-    <div class="p-4 bg-yellow-500 bg-opacity-10 rounded-lg border border-yellow-500">
-      <div class="text-yellow-400 text-xl font-bold mb-2">📋 Table Separation</div>
-      <div class="text-gray-300">We split data into separate tables:</div>
-      <ul class="text-gray-400 mt-2 ml-4 list-none">
+    <div class="p-3 bg-yellow-500 bg-opacity-10 rounded-lg border border-yellow-500">
+      <div class="text-yellow-400 text-lg font-bold mb-1">📋 Table Separation</div>
+      <div class="text-gray-300 text-sm">We split data into separate tables:</div>
+      <ul class="text-gray-400 mt-1 ml-4 list-none text-sm">
         <li>• Vendors</li>
         <li>• Rate Codes</li>
         <li>• Payments</li>
       </ul>
     </div>
   </div>
-  <div class="bg-yellow-500 bg-opacity-10 rounded-lg border border-yellow-500 border-dashed overflow-hidden" style="height: 280px;">
+  <div class="bg-yellow-500 bg-opacity-10 rounded-lg border border-yellow-500 border-dashed overflow-hidden" style="height: 240px;">
     <img src="/silver_image.png" alt="Silver Layer Code" style="width: 100%; height: 100%; object-fit: cover; object-position: top left;" />
   </div>
 </div>
@@ -278,21 +278,21 @@ h1 { color: #FFD700; }
 
 # 🗺️ LATITUDES & LONGITUDES
 
-<div class="grid grid-cols-2 gap-8 mt-8">
-  <div class="space-y-6">
-    <div class="p-6 bg-yellow-500 bg-opacity-10 rounded-lg border border-yellow-500">
-      <div class="text-yellow-400 text-xl font-bold mb-3">📍 Missing Location Data</div>
-      <div class="text-gray-300">Many latitudes and longitudes were empty</div>
-      <div class="text-yellow-400 text-4xl font-bold mt-4">~2%</div>
-      <div class="text-gray-400">of the whole dataset</div>
+<div class="grid grid-cols-2 gap-6 mt-2">
+  <div class="space-y-3">
+    <div class="p-4 bg-yellow-500 bg-opacity-10 rounded-lg border border-yellow-500">
+      <div class="text-yellow-400 text-lg font-bold mb-2">📍 Missing Location Data</div>
+      <div class="text-gray-300 text-sm">Many latitudes and longitudes were empty</div>
+      <div class="text-yellow-400 text-3xl font-bold mt-2">~2%</div>
+      <div class="text-gray-400 text-sm">of the whole dataset</div>
     </div>
-    <div class="p-6 bg-green-500 bg-opacity-10 rounded-lg border border-green-500">
-      <div class="text-green-400 text-xl font-bold mb-3">💡 Our Approach</div>
-      <div class="text-gray-300">We <span class="text-green-400 font-bold">did not delete</span> these records.</div>
-      <div class="text-gray-400 mt-2">Instead, we simply excluded them from any searches or queries which involved location data.</div>
+    <div class="p-4 bg-green-500 bg-opacity-10 rounded-lg border border-green-500">
+      <div class="text-green-400 text-lg font-bold mb-2">💡 Our Approach</div>
+      <div class="text-gray-300 text-sm">We <span class="text-green-400 font-bold">did not delete</span> these records.</div>
+      <div class="text-gray-400 mt-1 text-sm">Instead, we excluded them from searches involving location data.</div>
     </div>
   </div>
-  <div class="bg-yellow-500 bg-opacity-10 rounded-lg border border-yellow-500 border-dashed overflow-hidden" style="height: 320px;">
+  <div class="bg-yellow-500 bg-opacity-10 rounded-lg border border-yellow-500 border-dashed overflow-hidden" style="height: 260px;">
     <img src="/anomalies.png" alt="Location Anomalies" style="width: 100%; height: 100%; object-fit: contain;" />
   </div>
 </div>
@@ -307,35 +307,32 @@ h1 { color: #FFD700; }
 
 # 🥇 GOLD LAYER
 
-<div class="grid grid-cols-2 gap-8 mt-6">
-  <div class="space-y-4">
-    <div class="p-5 bg-yellow-500 bg-opacity-10 rounded-lg border border-yellow-500">
-      <div class="text-yellow-400 text-xl font-bold mb-2">📊 Business-Ready Data</div>
-      <div class="text-gray-300">Created a gold table containing business-relevant metrics:</div>
-      <ul class="text-gray-400 mt-2 ml-4 list-none">
-        <li>• Avg trip distance per day</li>
-        <li>• Avg fare per day</li>
-        <li>• Total revenue per day</li>
-        <li>• Total trip distance</li>
-        <li>• Total trips</li>
+<div class="grid grid-cols-2 gap-6 mt-2">
+  <div class="space-y-2">
+    <div class="p-3 bg-yellow-500 bg-opacity-10 rounded-lg border border-yellow-500">
+      <div class="text-yellow-400 text-lg font-bold mb-1">📊 Business-Ready Data</div>
+      <div class="text-gray-300 text-sm">Created a gold table with business-relevant metrics:</div>
+      <ul class="text-gray-400 mt-1 ml-4 list-none text-sm">
+        <li>• Avg trip distance & fare per day</li>
+        <li>• Total revenue, distance & trips</li>
       </ul>
     </div>
-    <div class="p-5 bg-yellow-500 bg-opacity-10 rounded-lg border border-yellow-500">
-      <div class="text-yellow-400 text-xl font-bold mb-2">✨ Clean & Organized</div>
-      <div class="text-gray-300">Easy for business users to search through, containing only clean, organized data.</div>
+    <div class="p-3 bg-yellow-500 bg-opacity-10 rounded-lg border border-yellow-500">
+      <div class="text-yellow-400 text-lg font-bold mb-1">✨ Clean & Organized</div>
+      <div class="text-gray-300 text-sm">Easy for business users to search through.</div>
     </div>
-    <div class="p-5 bg-yellow-500 bg-opacity-10 rounded-lg border border-yellow-500">
-      <div class="text-yellow-400 text-xl font-bold mb-2">📈 Visualizations</div>
-      <div class="text-gray-300">Used the gold table to create visualizations using <span class="text-yellow-400 font-bold">matplotlib</span>.</div>
+    <div class="p-3 bg-yellow-500 bg-opacity-10 rounded-lg border border-yellow-500">
+      <div class="text-yellow-400 text-lg font-bold mb-1">📈 Visualizations</div>
+      <div class="text-gray-300 text-sm">Created visualizations using <span class="text-yellow-400 font-bold">matplotlib</span>.</div>
     </div>
   </div>
   <div class="flex items-center justify-center">
     <div class="text-center">
-      <div class="w-40 h-40 rounded-full flex items-center justify-center mx-auto mb-4 text-6xl" style="background: linear-gradient(145deg, #FFD700, #FFA500);">
+      <div class="w-32 h-32 rounded-full flex items-center justify-center mx-auto mb-3 text-5xl" style="background: linear-gradient(145deg, #FFD700, #FFA500);">
         🥇
       </div>
-      <div class="text-yellow-400 text-3xl font-bold">GOLD</div>
-      <div class="text-gray-400 text-lg">Analytics Ready</div>
+      <div class="text-yellow-400 text-2xl font-bold">GOLD</div>
+      <div class="text-gray-400">Analytics Ready</div>
     </div>
   </div>
 </div>
@@ -396,26 +393,26 @@ h1 { color: #FFD700; }
 
 # ⏰ TRIPS BY HOUR & DAY OF WEEK
 
-<div class="grid grid-cols-5 gap-4 mt-4">
-  <div class="col-span-4">
-    <img src="/trips_by_hour_day.png" class="rounded-lg shadow-xl border border-yellow-500" style="width: 100%;" />
+<div class="grid grid-cols-5 gap-3 mt-1">
+  <div class="col-span-4" style="max-height: 320px;">
+    <img src="/trips_by_hour_day.png" class="rounded-lg shadow-xl border border-yellow-500" style="width: 100%; max-height: 320px; object-fit: contain;" />
   </div>
-  <div class="col-span-1 space-y-3">
-    <div class="p-3 bg-yellow-500 bg-opacity-10 rounded-lg border border-yellow-500">
-      <div class="text-yellow-400 text-sm font-bold mb-1">🎉 Friday & Saturday</div>
-      <div class="text-gray-300 text-xs">Peak evening demand on weekend nights (7-11 PM)</div>
+  <div class="col-span-1 space-y-2">
+    <div class="p-2 bg-yellow-500 bg-opacity-10 rounded-lg border border-yellow-500">
+      <div class="text-yellow-400 text-xs font-bold">🎉 Fri & Sat</div>
+      <div class="text-gray-300 text-xs">Peak 7-11 PM</div>
     </div>
-    <div class="p-3 bg-yellow-500 bg-opacity-10 rounded-lg border border-yellow-500">
-      <div class="text-yellow-400 text-sm font-bold mb-1">🌅 Weekday Mornings</div>
-      <div class="text-gray-300 text-xs">Rush hour patterns on Mon-Fri (7-9 AM)</div>
+    <div class="p-2 bg-yellow-500 bg-opacity-10 rounded-lg border border-yellow-500">
+      <div class="text-yellow-400 text-xs font-bold">🌅 Weekdays</div>
+      <div class="text-gray-300 text-xs">Rush 7-9 AM</div>
     </div>
-    <div class="p-3 bg-yellow-500 bg-opacity-10 rounded-lg border border-yellow-500">
-      <div class="text-yellow-400 text-sm font-bold mb-1">🌙 Late Night</div>
-      <div class="text-gray-300 text-xs">Saturday has highest late-night activity (12-2 AM)</div>
+    <div class="p-2 bg-yellow-500 bg-opacity-10 rounded-lg border border-yellow-500">
+      <div class="text-yellow-400 text-xs font-bold">🌙 Late Night</div>
+      <div class="text-gray-300 text-xs">Sat highest</div>
     </div>
-    <div class="p-3 bg-green-500 bg-opacity-10 rounded-lg border border-green-500">
-      <div class="text-green-400 text-sm font-bold mb-1">💡 Insight</div>
-      <div class="text-gray-300 text-xs">Helps identify where demand lies on different days</div>
+    <div class="p-2 bg-green-500 bg-opacity-10 rounded-lg border border-green-500">
+      <div class="text-green-400 text-xs font-bold">💡 Insight</div>
+      <div class="text-gray-300 text-xs">Shows demand patterns</div>
     </div>
   </div>
 </div>
@@ -428,27 +425,67 @@ h1 { color: #FFD700; }
 
 ---
 
-# 🗺️ MANHATTAN HEAT MAP
+# � CONVERTING COORDINATES TO LOCATIONS
 
-**Most Popular Pickup & Dropoff Locations**
-
-<div class="mt-4">
-  <img src="/manhattan_heatmap.png" class="rounded-lg shadow-xl border border-yellow-500" style="width: 100%;" />
+<div class="grid grid-cols-2 gap-4 mt-1">
+  <div class="space-y-2">
+    <div class="p-2 bg-yellow-500 bg-opacity-10 rounded-lg border border-yellow-500">
+      <div class="text-yellow-400 text-sm font-bold mb-1">📥 Data Source</div>
+      <div class="text-gray-300 text-xs">Downloaded taxi zones shapefile from Kaggle and uploaded to Databricks</div>
+    </div>
+    <div class="p-2 bg-yellow-500 bg-opacity-10 rounded-lg border border-yellow-500">
+      <div class="text-yellow-400 text-sm font-bold mb-1">🔄 Processing Steps</div>
+      <ul class="text-gray-300 text-xs list-none space-y-1">
+        <li>• Filtered only trips with valid lat/long</li>
+        <li>• Converted to GeoPandas geometry points</li>
+        <li>• Performed spatial joins with shapefile</li>
+        <li>• Assigned zone & borough to each pickup/dropoff</li>
+      </ul>
+    </div>
+  </div>
+  <div class="space-y-2">
+    <div class="p-2 bg-red-500 bg-opacity-10 rounded-lg border border-red-500">
+      <div class="text-red-400 text-sm font-bold mb-1">⚠️ Memory Issues</div>
+      <div class="text-gray-300 text-xs">Databricks kept running out of memory and crashing</div>
+    </div>
+    <div class="p-2 bg-green-500 bg-opacity-10 rounded-lg border border-green-500">
+      <div class="text-green-400 text-sm font-bold mb-1">✅ Solution</div>
+      <div class="text-gray-300 text-xs">Processed in chunks - one chunk per day rather than the whole table at once</div>
+    </div>
+    <div class="p-2 bg-yellow-500 bg-opacity-10 rounded-lg border border-yellow-500">
+      <div class="text-yellow-400 text-sm font-bold mb-1">📊 Output</div>
+      <div class="text-gray-300 text-xs">Created visualizations showing top 10 locations and heat map over NYC</div>
+    </div>
+  </div>
 </div>
 
-<div class="mt-4 grid grid-cols-2 gap-4">
-  <div class="p-3 bg-red-500 bg-opacity-10 rounded-lg border border-red-500 text-center">
-    <div class="text-red-400 font-bold">🔴 Pickups</div>
-    <div class="text-gray-300 text-sm">Upper East Side, Midtown, Times Square</div>
-  </div>
-  <div class="p-3 bg-blue-500 bg-opacity-10 rounded-lg border border-blue-500 text-center">
-    <div class="text-blue-400 font-bold">🔵 Dropoffs</div>
-    <div class="text-gray-300 text-sm">Midtown Center, Murray Hill, Penn Station</div>
-  </div>
-</div>
+<TaxiAnimation />
 
-<div class="mt-3 text-center text-yellow-400 text-sm">
-  💡 This data helps identify where the most taxis are needed
+<style>
+h1 { color: #FFD700; }
+</style>
+
+---
+
+# �🗺️ MANHATTAN HEAT MAP
+
+<div class="grid grid-cols-5 gap-3 mt-1">
+  <div class="col-span-4" style="max-height: 300px;">
+    <img src="/manhattan_heatmap.png" class="rounded-lg shadow-xl border border-yellow-500" style="width: 100%; max-height: 300px; object-fit: contain;" />
+  </div>
+  <div class="col-span-1 space-y-2">
+    <div class="p-2 bg-red-500 bg-opacity-10 rounded-lg border border-red-500 text-center">
+      <div class="text-red-400 text-sm font-bold">🔴 Pickups</div>
+      <div class="text-gray-300 text-xs">Upper East Side, Midtown</div>
+    </div>
+    <div class="p-2 bg-blue-500 bg-opacity-10 rounded-lg border border-blue-500 text-center">
+      <div class="text-blue-400 text-sm font-bold">🔵 Dropoffs</div>
+      <div class="text-gray-300 text-xs">Midtown, Murray Hill</div>
+    </div>
+    <div class="p-2 bg-yellow-500 bg-opacity-10 rounded-lg border border-yellow-500 text-center">
+      <div class="text-yellow-400 text-xs">💡 Helps identify where taxis are needed</div>
+    </div>
+  </div>
 </div>
 
 <TaxiAnimation />
@@ -517,28 +554,28 @@ h1 { color: #FFD700; }
 
 # 💰 FARE PREDICTION - CHALLENGES
 
-<div class="grid grid-cols-2 gap-8 mt-6">
-  <div class="space-y-4">
-    <div class="p-5 bg-red-500 bg-opacity-10 rounded-lg border border-red-500">
-      <div class="text-red-400 text-xl font-bold mb-2">⏱️ Performance Issues</div>
-      <div class="text-gray-300">First run took <span class="text-red-400 font-bold">over 30 minutes</span> and never finished!</div>
+<div class="grid grid-cols-2 gap-6 mt-2">
+  <div class="space-y-2">
+    <div class="p-3 bg-red-500 bg-opacity-10 rounded-lg border border-red-500">
+      <div class="text-red-400 text-lg font-bold mb-1">⏱️ Performance Issues</div>
+      <div class="text-gray-300 text-sm">First run took <span class="text-red-400 font-bold">over 30 minutes</span> and never finished!</div>
     </div>
-    <div class="p-5 bg-green-500 bg-opacity-10 rounded-lg border border-green-500">
-      <div class="text-green-400 text-xl font-bold mb-2">✅ Solution</div>
-      <div class="text-gray-300">Reduced sample size from <span class="text-yellow-400 font-bold">12 million</span> to <span class="text-green-400 font-bold">600k</span> records</div>
-      <div class="text-gray-400 mt-2">Still reaches 95% of the accuracy!</div>
+    <div class="p-3 bg-green-500 bg-opacity-10 rounded-lg border border-green-500">
+      <div class="text-green-400 text-lg font-bold mb-1">✅ Solution</div>
+      <div class="text-gray-300 text-sm">Reduced from <span class="text-yellow-400 font-bold">12M</span> to <span class="text-green-400 font-bold">600k</span> records</div>
+      <div class="text-gray-400 text-sm">Still 95% accuracy!</div>
     </div>
-    <div class="p-5 bg-yellow-500 bg-opacity-10 rounded-lg border border-yellow-500">
-      <div class="text-yellow-400 text-xl font-bold mb-2">🌳 Model Used</div>
-      <div class="text-gray-300">GBTRegressor (Gradient Boosted Trees)</div>
+    <div class="p-3 bg-yellow-500 bg-opacity-10 rounded-lg border border-yellow-500">
+      <div class="text-yellow-400 text-lg font-bold mb-1">🌳 Model Used</div>
+      <div class="text-gray-300 text-sm">GBTRegressor (Gradient Boosted Trees)</div>
     </div>
   </div>
   <div class="flex items-center justify-center">
-    <div class="text-center p-8 bg-gray-800 rounded-lg border border-yellow-500">
-      <div class="text-gray-400 text-lg">Initial RMSE</div>
-      <div class="text-yellow-400 text-5xl font-bold mt-2">$4.65</div>
-      <div class="text-gray-500 mt-4">Average trip fare: ~$14.00</div>
-      <div class="text-gray-400 mt-2">Decent, but not amazing</div>
+    <div class="text-center p-6 bg-gray-800 rounded-lg border border-yellow-500">
+      <div class="text-gray-400">Initial RMSE</div>
+      <div class="text-yellow-400 text-4xl font-bold mt-1">$4.65</div>
+      <div class="text-gray-500 mt-2 text-sm">Avg fare: ~$14.00</div>
+      <div class="text-gray-400 text-sm">Decent, but not amazing</div>
     </div>
   </div>
 </div>
@@ -553,30 +590,30 @@ h1 { color: #FFD700; }
 
 # ⏰ ADDING TIME FEATURES
 
-<div class="grid grid-cols-2 gap-8 mt-6">
-  <div class="space-y-4">
-    <div class="p-5 bg-yellow-500 bg-opacity-10 rounded-lg border border-yellow-500">
-      <div class="text-yellow-400 text-xl font-bold mb-2">💡 Hypothesis</div>
-      <div class="text-gray-300">Adding pickup and dropoff time would improve accuracy</div>
+<div class="grid grid-cols-2 gap-6 mt-2">
+  <div class="space-y-2">
+    <div class="p-3 bg-yellow-500 bg-opacity-10 rounded-lg border border-yellow-500">
+      <div class="text-yellow-400 text-lg font-bold mb-1">💡 Hypothesis</div>
+      <div class="text-gray-300 text-sm">Adding pickup/dropoff time would improve accuracy</div>
     </div>
-    <div class="p-5 bg-red-500 bg-opacity-10 rounded-lg border border-red-500">
-      <div class="text-red-400 text-xl font-bold mb-2">❌ Reality</div>
-      <div class="text-gray-300">RMSE almost <span class="text-red-400 font-bold">doubled</span> to <span class="text-red-400 font-bold">$8.05</span></div>
+    <div class="p-3 bg-red-500 bg-opacity-10 rounded-lg border border-red-500">
+      <div class="text-red-400 text-lg font-bold mb-1">❌ Reality</div>
+      <div class="text-gray-300 text-sm">RMSE <span class="text-red-400 font-bold">doubled</span> to <span class="text-red-400 font-bold">$8.05</span></div>
     </div>
-    <div class="p-5 bg-orange-500 bg-opacity-10 rounded-lg border border-orange-500">
-      <div class="text-orange-400 text-xl font-bold mb-2">🤔 Why?</div>
-      <div class="text-gray-300">The model views <span class="text-orange-400 font-bold">hour 23</span> as far away from <span class="text-orange-400 font-bold">hour 0</span></div>
-      <div class="text-gray-400 mt-2">Time data was messy and hard to understand</div>
+    <div class="p-3 bg-orange-500 bg-opacity-10 rounded-lg border border-orange-500">
+      <div class="text-orange-400 text-lg font-bold mb-1">🤔 Why?</div>
+      <div class="text-gray-300 text-sm">Model sees <span class="text-orange-400 font-bold">hour 23</span> as far from <span class="text-orange-400 font-bold">hour 0</span></div>
+      <div class="text-gray-400 text-sm">Time data was messy</div>
     </div>
   </div>
   <div class="flex items-center justify-center">
     <div class="text-center">
-      <div class="p-6 bg-gray-800 rounded-lg border border-red-500 mb-4">
-        <div class="text-gray-400">With raw time</div>
-        <div class="text-red-400 text-4xl font-bold">$8.05</div>
+      <div class="p-4 bg-gray-800 rounded-lg border border-red-500 mb-2">
+        <div class="text-gray-400 text-sm">With raw time</div>
+        <div class="text-red-400 text-3xl font-bold">$8.05</div>
       </div>
-      <div class="text-4xl">⬇️</div>
-      <div class="text-gray-400 mt-2">Need a better approach...</div>
+      <div class="text-3xl">⬇️</div>
+      <div class="text-gray-400 text-sm mt-1">Need a better approach...</div>
     </div>
   </div>
 </div>
@@ -591,28 +628,27 @@ h1 { color: #FFD700; }
 
 # 🔄 CYCLIC ENCODING
 
-<div class="grid grid-cols-2 gap-8 mt-6">
-  <div class="space-y-4">
-    <div class="p-5 bg-green-500 bg-opacity-10 rounded-lg border border-green-500">
-      <div class="text-green-400 text-xl font-bold mb-2">✨ Solution: Sin & Cos Encoding</div>
-      <div class="text-gray-300">Using just one (sin OR cos) loses information - can't distinguish some hours</div>
-      <div class="text-gray-400 mt-2">Both together capture the cyclic nature of time</div>
+<div class="grid grid-cols-2 gap-6 mt-2">
+  <div class="space-y-2">
+    <div class="p-3 bg-green-500 bg-opacity-10 rounded-lg border border-green-500">
+      <div class="text-green-400 text-lg font-bold mb-1">✨ Solution: Sin & Cos Encoding</div>
+      <div class="text-gray-300 text-sm">Using one loses info - both capture cyclic nature</div>
     </div>
-    <div class="p-5 bg-yellow-500 bg-opacity-10 rounded-lg border border-yellow-500">
-      <div class="text-yellow-400 text-xl font-bold mb-2">📊 Result</div>
-      <div class="text-gray-300">RMSE back down to <span class="text-green-400 font-bold">~$5.00</span></div>
+    <div class="p-3 bg-yellow-500 bg-opacity-10 rounded-lg border border-yellow-500">
+      <div class="text-yellow-400 text-lg font-bold mb-1">📊 Result</div>
+      <div class="text-gray-300 text-sm">RMSE back down to <span class="text-green-400 font-bold">~$5.00</span></div>
     </div>
-    <div class="p-5 bg-gray-800 rounded-lg border border-gray-600">
-      <div class="text-gray-400 text-xl font-bold mb-2">💡 Insight</div>
-      <div class="text-gray-300">Time can predict traffic, but doesn't have much sway over fares</div>
-      <div class="text-gray-400 mt-2">Couldn't lower further without risking overfitting</div>
+    <div class="p-3 bg-gray-800 rounded-lg border border-gray-600">
+      <div class="text-gray-400 text-lg font-bold mb-1">💡 Insight</div>
+      <div class="text-gray-300 text-sm">Time predicts traffic, but doesn't sway fares much</div>
+      <div class="text-gray-400 text-sm">Can't lower further without overfitting</div>
     </div>
   </div>
   <div class="flex items-center justify-center">
-    <div class="p-8 bg-gray-800 rounded-full border-4 border-green-500" style="width: 200px; height: 200px;">
-      <div class="text-center mt-8">
-        <div class="text-gray-400">RMSE</div>
-        <div class="text-green-400 text-4xl font-bold">$5.00</div>
+    <div class="p-6 bg-gray-800 rounded-full border-4 border-green-500" style="width: 160px; height: 160px;">
+      <div class="text-center mt-6">
+        <div class="text-gray-400 text-sm">RMSE</div>
+        <div class="text-green-400 text-3xl font-bold">$5.00</div>
       </div>
     </div>
   </div>
@@ -628,30 +664,26 @@ h1 { color: #FFD700; }
 
 # 🎯 THE REAL PROBLEM
 
-<div class="grid grid-cols-2 gap-8 mt-6">
-  <div class="space-y-4">
-    <div class="p-5 bg-red-500 bg-opacity-10 rounded-lg border border-red-500">
-      <div class="text-red-400 text-xl font-bold mb-2">❌ What We Were Predicting</div>
-      <div class="text-gray-300"><code class="text-red-400 bg-gray-800 px-2 py-1 rounded">total_amount</code></div>
-      <div class="text-gray-400 mt-2">This included unpredictable noise!</div>
+<div class="grid grid-cols-2 gap-6 mt-2">
+  <div class="space-y-2">
+    <div class="p-3 bg-red-500 bg-opacity-10 rounded-lg border border-red-500">
+      <div class="text-red-400 text-lg font-bold mb-1">❌ What We Were Predicting</div>
+      <div class="text-gray-300 text-sm"><code class="text-red-400 bg-gray-800 px-2 py-1 rounded">total_amount</code> - included unpredictable noise!</div>
     </div>
-    <div class="p-5 bg-orange-500 bg-opacity-10 rounded-lg border border-orange-500">
-      <div class="text-orange-400 text-xl font-bold mb-2">💵 Tips</div>
-      <div class="text-gray-300">Random customer behavior - impossible to predict</div>
+    <div class="p-3 bg-orange-500 bg-opacity-10 rounded-lg border border-orange-500">
+      <div class="text-orange-400 text-lg font-bold mb-1">💵 Tips</div>
+      <div class="text-gray-300 text-sm">Random customer behavior - impossible to predict</div>
     </div>
-    <div class="p-5 bg-purple-500 bg-opacity-10 rounded-lg border border-purple-500">
-      <div class="text-purple-400 text-xl font-bold mb-2">📋 Surcharges</div>
-      <div class="text-gray-300">
-        <div>🌆 <span class="text-orange-400">4pm-8pm:</span> $1.00</div>
-        <div>🌙 <span class="text-purple-400">8pm-6am:</span> $0.50</div>
-      </div>
+    <div class="p-3 bg-purple-500 bg-opacity-10 rounded-lg border border-purple-500">
+      <div class="text-purple-400 text-lg font-bold mb-1">📋 Surcharges</div>
+      <div class="text-gray-300 text-sm">🌆 4pm-8pm: $1.00 | 🌙 8pm-6am: $0.50</div>
     </div>
   </div>
   <div class="flex items-center justify-center">
-    <div class="text-center p-8 bg-gray-800 rounded-lg border border-red-500">
-      <div class="text-gray-400 text-lg">total_amount =</div>
-      <div class="text-gray-300 mt-4">fare + tips + surcharges + extras</div>
-      <div class="text-red-400 text-xl font-bold mt-6">Too much noise! 📊</div>
+    <div class="text-center p-5 bg-gray-800 rounded-lg border border-red-500">
+      <div class="text-gray-400">total_amount =</div>
+      <div class="text-gray-300 text-sm mt-2">fare + tips + surcharges + extras</div>
+      <div class="text-red-400 text-lg font-bold mt-3">Too much noise! 📊</div>
     </div>
   </div>
 </div>
@@ -739,27 +771,19 @@ h1 { color: #FFD700; }
 </style>
 
 ---
-layout: none
----
-
-<TaxiCrash />
-
----
 
 # 📊 COMPARISON
 
-**Comparing Our Prediction Results**
-
-<div class="grid grid-cols-2 gap-8 mt-6">
-  <div class="bg-yellow-500 bg-opacity-10 rounded-lg border border-yellow-500 p-4">
-    <div class="text-yellow-400 text-lg font-bold text-center mb-3"></div>
-    <div class="overflow-hidden rounded" style="height: 300px;">
+<div class="grid grid-cols-2 gap-4 mt-0">
+  <div class="bg-yellow-500 bg-opacity-10 rounded-lg border border-yellow-500 p-2">
+    <div class="text-yellow-400 text-xs font-bold text-center">Before</div>
+    <div class="overflow-hidden rounded" style="height: 220px;">
       <img src="/fare_prediction.png" alt="Before" style="width: 100%; height: 100%; object-fit: contain;" />
     </div>
   </div>
-  <div class="bg-green-500 bg-opacity-10 rounded-lg border border-green-500 p-4">
-    <div class="text-green-400 text-lg font-bold text-center mb-3"></div>
-    <div class="overflow-hidden rounded" style="height: 300px;">
+  <div class="bg-green-500 bg-opacity-10 rounded-lg border border-green-500 p-2">
+    <div class="text-green-400 text-xs font-bold text-center">After</div>
+    <div class="overflow-hidden rounded" style="height: 220px;">
       <img src="/fare_v_distance.png" alt="After" style="width: 100%; height: 100%; object-fit: contain;" />
     </div>
   </div>
@@ -772,31 +796,109 @@ h1 { color: #FFD700; }
 </style>
 
 ---
----
 
-# 🚕 THANK YOU!
+# 🤖 RAG - FAQ SEARCH
 
-## End of the Journey
-
-<div class="mt-8 p-8 bg-yellow-500 bg-opacity-10 rounded-lg border border-yellow-500 inline-block">
-  <div class="text-2xl mb-4">Questions?</div>
-  <div class="flex justify-center gap-4 text-4xl">
-    🗽 🚖 🌃 📊 🗽
+<div class="grid grid-cols-2 gap-4 mt-1">
+  <div class="space-y-2">
+    <div class="p-2 bg-yellow-500 bg-opacity-10 rounded-lg border border-yellow-500">
+      <div class="text-yellow-400 text-sm font-bold mb-1">📄 FAQ Document</div>
+      <div class="text-gray-300 text-xs">Created a JSON document with common FAQs:</div>
+      <ul class="text-gray-400 text-xs mt-1 ml-3 list-none">
+        <li>• How is taxi fare calculated?</li>
+        <li>• What causes unusually high fares?</li>
+        <li>• Why do some trips have zero distance?</li>
+      </ul>
+    </div>
+    <div class="p-2 bg-yellow-500 bg-opacity-10 rounded-lg border border-yellow-500">
+      <div class="text-yellow-400 text-sm font-bold mb-1">🧠 Embedding Model</div>
+      <div class="text-gray-300 text-xs">Converted FAQ into <span class="text-yellow-400 font-bold">vectors</span> for semantic search.</div>
+    </div>
+  </div>
+  <div class="bg-yellow-500 bg-opacity-10 rounded-lg border border-yellow-500 p-2 overflow-hidden" style="height: 240px;">
+    <img src="/faq_json.png" alt="FAQ JSON" style="width: 100%; height: 100%; object-fit: contain;" />
   </div>
 </div>
-
-<div class="mt-8 text-gray-500">Team 4 • Data Engineering Demo</div>
 
 <TaxiAnimation />
 
 <style>
-h1 {
-  background: linear-gradient(135deg, #FFD700 0%, #FFA500 100%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  font-size: 4rem !important;
-}
-h2 {
-  color: #FFD700;
-}
+h1 { color: #FFD700; }
 </style>
+
+---
+
+# 🔍 RAG - SEMANTIC SEARCH
+
+<div class="grid grid-cols-3 gap-3 mt-1">
+  <div class="space-y-2">
+    <div class="p-2 bg-gray-800 rounded-lg border border-gray-600">
+      <div class="text-gray-400 text-xs">Query:</div>
+      <div class="text-yellow-400 text-sm font-bold">"How tall am I?"</div>
+      <div class="text-gray-500 text-xs">❌ Low relevance</div>
+    </div>
+    <div class="p-2 bg-green-500 bg-opacity-10 rounded-lg border border-green-500">
+      <div class="text-gray-400 text-xs">Query:</div>
+      <div class="text-green-400 text-sm font-bold">"What causes high fares?"</div>
+      <div class="text-gray-300 text-xs">✅ Score: <span class="text-green-400 font-bold">0.761</span></div>
+    </div>
+    <div class="p-2 bg-yellow-500 bg-opacity-10 rounded-lg border border-yellow-500">
+      <div class="text-yellow-400 text-sm font-bold">💡 How It Works</div>
+      <div class="text-gray-300 text-xs">RAG finds semantic matches, ranked by relevance.</div>
+    </div>
+  </div>
+  <div class="bg-yellow-500 bg-opacity-10 rounded-lg border border-yellow-500 p-2 overflow-hidden" style="height: 240px;">
+    <img src="/rag_query.png" alt="RAG Query" style="width: 100%; height: 100%; object-fit: contain;" />
+  </div>
+  <div class="bg-yellow-500 bg-opacity-10 rounded-lg border border-yellow-500 p-2 overflow-hidden" style="height: 240px;">
+    <img src="/rag_search_results.png" alt="RAG Search Results" style="width: 100%; height: 100%; object-fit: contain;" />
+  </div>
+</div>
+
+<TaxiAnimation />
+
+<style>
+h1 { color: #FFD700; }
+</style>
+
+---
+
+# 📊 RAG - BUSINESS KPIs
+
+**Query Gold Table Data Using Natural Language**
+
+<div class="grid grid-cols-2 gap-6 mt-6">
+  <div class="space-y-4">
+    <div class="p-5 bg-yellow-500 bg-opacity-10 rounded-lg border border-yellow-500">
+      <div class="text-yellow-400 text-xl font-bold mb-2">🥇 Gold Table Embeddings</div>
+      <div class="text-gray-300">Created another RAG agent that embeds our <span class="text-yellow-400 font-bold">gold table business KPIs</span> for natural language querying.</div>
+    </div>
+    <div class="p-4 bg-gray-800 rounded-lg border border-gray-600">
+      <div class="text-gray-400 mb-2">Example Queries:</div>
+      <ul class="text-yellow-400 mt-2 list-none space-y-1">
+        <li>• "Days with unusually high total trips"</li>
+        <li>• "Days with unusually high revenue"</li>
+        <li>• "Biggest average trip distance"</li>
+      </ul>
+    </div>
+    <div class="p-4 bg-green-500 bg-opacity-10 rounded-lg border border-green-500">
+      <div class="text-green-400 font-bold mb-2">✅ Plain Text → Business Insights</div>
+      <div class="text-gray-300 text-sm">Ask questions in plain English and get relevant data from the gold table with similarity scores.</div>
+    </div>
+  </div>
+  <div class="bg-yellow-500 bg-opacity-10 rounded-lg border border-yellow-500 p-4 overflow-hidden" style="height: 320px;">
+    <img src="/rag_gold_results.png" alt="RAG Gold Table Results" style="width: 100%; height: 100%; object-fit: contain;" />
+  </div>
+</div>
+
+<TaxiAnimation />
+
+<style>
+h1 { color: #FFD700; }
+</style>
+
+---
+layout: none
+---
+
+<TaxiCrash />
